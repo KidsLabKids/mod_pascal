@@ -1,0 +1,133 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Hackerschwert",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hackerschwert"
+    },
+    {
+      "name": "Demonschwert",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demonschwert"
+    },
+    {
+      "name": "HackerschwertWennLebewesenMitWerkzeugGeschlagenWird",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hackerschwert_wenn_lebewesen_mit_werkzeug_geschlagen_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HackerschwertWennBlockMitWerkzeugZerstortWird",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hackerschwert_wenn_block_mit_werkzeug_zerstort_wird",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "GodmodeschwertWennLebewesenMitWerkzeugGeschlagenWird",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "godmodeschwert_wenn_lebewesen_mit_werkzeug_geschlagen_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Godmodeschwert",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "godmodeschwert"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.more_weapons.hackerschwert": "Hackerschwert",
+      "item.more_weapons.demonschwert": "Demonschwert",
+      "item.more_weapons.godmodeschwert": "Godmodeschwert"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "more_weapons",
+    "modName": "more weapons",
+    "version": "1.0.0",
+    "author": "kidslab, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.moreweapons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
